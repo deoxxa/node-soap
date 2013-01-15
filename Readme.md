@@ -7,9 +7,15 @@ Install:  npm install soap-js
 
 This branch fixes the defects below.
 
-1. Namespace should propagate to child nodes and clean up of unused code. 
-
+0.2.8
+Fix the issue that namespace should propagate to child nodes and clean up of unused code. 
 Accept the pull request https://github.com/milewise/node-soap/pull/74
+
+0.2.9
+Fix the mistake when merge the previous request.
+
+0.2.10
+Fix the issue in file lib/wsdl.js. the original code cannot handle the array correctly
 
 
 
