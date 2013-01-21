@@ -17,5 +17,8 @@ Fix the mistake when merge the previous request.
 0.2.10
 Fix the issue in file lib/wsdl.js. the original code cannot handle the array correctly
 
+0.2.11
+Currently, the attribute whose value is zero or false will not be added to the xml content. This change allows zero and false as elements value.
+
 
 
