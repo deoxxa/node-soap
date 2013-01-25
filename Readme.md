@@ -21,4 +21,8 @@ Fix the issue in file lib/wsdl.js. the original code cannot handle the array cor
 Currently, the attribute whose value is zero or false will not be added to the xml content. This change allows zero and false as elements value.
 
 
+## License
+MIT license.
+
+
 
